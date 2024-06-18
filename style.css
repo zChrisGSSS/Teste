@@ -9,4 +9,10 @@ body{
     max-width: 800px;
     margin: 0 auto;
     padding: 30px;
+    background-color: rgb(219, 75, 75);
+}
+
+.titulo-principal{
+text-align: center;
+font-size: large;
 }
