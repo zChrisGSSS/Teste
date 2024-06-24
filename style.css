@@ -9,7 +9,7 @@ body{
     max-width: 800px;
     margin: 0 auto;
     padding: 30px;
-    background-color: rgb(219, 75, 75);
+    background: linear-gradient(red, yellow );
 }
 
 .titulo-principal{
@@ -19,4 +19,29 @@ font-size: large;
 
 .banner{
     text-align: center;
+    margin-bottom: 35px;
+}
+
+.banner img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 100px;
+    box-shadow: 0 0 50px;
+}
+
+.personagens{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.ator{
+    text-align: center;
+}
+
+.ator img{
+    width: 100px;
+    height: 150px;
+    border-radius: 50px;
+    box-shadow: 0 0 10px;
 }
